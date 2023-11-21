@@ -1,0 +1,402 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WM Managing Orders
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : Simplified management of orders
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Android Managing Orders
+    internal_properties : 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
+    configuration_id : 3815152983487717082
+    type : 15
+    generation_directory : .\Exe\Android Managing Orders
+    version : {}
+    language : 2
+  -
+    name : iOS Managing Orders
+    internal_properties : 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
+    configuration_id : 15155750018601440079
+    type : 18
+    description : Managing Orders
+    generation_directory : .\Exe\iOS Managing Orders
+    version : {}
+    language : 2
+ elements :
+  identifier : 0x4acc9f0a0027055a
+  elements :
+   -
+     name : WIN_Customer_Form
+     identifier : 0x485292620004e620
+     internal_properties : CAAAAAgAAAAgHhgEo5iQS2JjyJoTv1h+HF/bw3hGyz2jF0ZUiJCEZKgW2zLuyviQL+vVI+Md5dslLQ==
+     physical_name : .\WIN_Customer_Form.wpw
+     type : 2
+   -
+     name : WIN_List_Orders
+     identifier : 0x4f1d1b51003e981a
+     internal_properties : CAAAAAgAAACmrI6SEU7miayhClhR/qr0iu/ZGT9BjXeuM9BLzFNBzy2hUF2wCDpS7SmTbTWrV0mzsw==
+     physical_name : .\WIN_List_Orders.wpw
+     type : 2
+   -
+     name : RPT_OrderForm
+     identifier : 0x471896bc02a5caa6
+     internal_properties : CAAAAAgAAACFge0xDqsDHC5pV1VWxNTC8e6UxNdZBquRuq/zl3kl8w3H/c3VbW8Xe64okBDAuCiQkA==
+     physical_name : .\RPT_OrderForm.wde
+     type : 3
+     configurations :
+      -
+        configuration_id : 3815152983487717082
+        excluded : true
+   -
+     name : WIN_History
+     identifier : 0x4852987c0007be56
+     internal_properties : CAAAAAgAAABIxrBsWwAoMwpbsGKLC/CeVCej6+i6Dj+dJ7bslIwIIOzSf552QnAIV8M9u3t1DYNN1Q==
+     physical_name : .\WIN_History.wpw
+     type : 2
+   -
+     name : pGlobal
+     identifier : 0x484ea85f00008c81
+     internal_properties : CAAAAAgAAABHw6/zMG1FZk+A6btstU/pl9pWTgvdgcG2WRhI9gII6CyQR0bd2xexDAjyzlaKdmpS0g==
+     physical_name : .\pGlobal.wdg
+     type : 7
+   -
+     name : QRY_FindCustomer
+     identifier : 0x4f198f8f07930add
+     internal_properties : CAAAAAgAAADjX9vP/KkBGjM0bT/w6oOt49DORuDNZcmOP154rPubtR+BkouZZ5s1gLwmkhLOqh7mbg==
+     physical_name : .\QRY_FindCustomer.WDR
+     type : 5
+   -
+     name : WIN_List_Products
+     identifier : 0x485298e0000842f0
+     internal_properties : CAAAAAgAAABIxrBsWwAoMwpbsGKLDvCWjM2Lo4aQTgPxkteLDRN5r0HRfKF2QnAIV8M9u3t1DYNN1Q==
+     physical_name : .\WIN_List_Products.wpw
+     type : 2
+   -
+     name : WIN_Form_Product
+     identifier : 0x48529937000998ec
+     internal_properties : CAAAAAgAAAAbd8PH5KEJEis8hdfYRDdR84yuHrUzyIxT+2o3G/0Rx32TuOUxj8PdeKQemhrWohb+Bg==
+     physical_name : .\WIN_Form_Product.wpw
+     type : 2
+   -
+     name : WIN_Menu
+     identifier : 0x48528e5d0000348d
+     internal_properties : CAAAAAgAAACvq4ebKFXdjle4EUOk8ac5XyKe9ktlYxKV7VYU8i7sBPDcG3KlE09p9CCaZi6iXlK6ug==
+     physical_name : .\WIN_Menu.wpw
+     type : 2
+   -
+     name : WIN_NewOrder
+     identifier : 0x485296f00006b2d1
+     internal_properties : CAAAAAgAAAAJBXEVks9nCC0i9yXO5YWr2fiAmCljiSTleea8foKQuHCAk5qDfbXPbqoU7LQs1MQMFA==
+     physical_name : .\WIN_NewOrder.wpw
+     type : 2
+   -
+     name : WIN_List_Customers
+     identifier : 0x4852903200035a08
+     internal_properties : CAAAAAgAAADlYc3R7oujvAFGu2mC2qnXTQ4YGK/ZHKmZAEWl/QMTPfsRPm+/OWkDUs7IMPDgmAjwcA==
+     physical_name : .\WIN_List_Customers.wpw
+     type : 2
+   -
+     name : QRY_CustomerList
+     identifier : 0x40c5c36501ce11ed
+     internal_properties : CAAAAAgAAADcujRgXwQsP4bHPO4HIDBW+JXH7+1iYpWuM4LUMlW/cYebuuNKtuyE009Jt39xCf/JSQ==
+     physical_name : .\QRY_CustomerList.WDR
+     type : 5
+   -
+     name : QRY_SearchProduct
+     identifier : 0x4f198644044ebd59
+     internal_properties : CAAAAAgAAADkYszo14ykR25/xJYfjnQKIJEvZ0GudY12yTQaDJt5l2FB7CHyzgScO+fRL/fpkQfxcQ==
+     physical_name : .\QRY_SearchProduct.WDR
+     type : 5
+  other_elements :
+   -
+     physical_name : .\Exe\Android Managing Orders\Address.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Address.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\ContactHistory.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\ContactHistory.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Customer.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Customer.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\InvLine.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\InvLine.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Invoice.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Invoice.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Order.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Order.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\OrdLine.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\OrdLine.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Parameter.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Parameter.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Parameter.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Product.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Product.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+   -
+     physical_name : .\Exe\Android Managing Orders\Product.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 3815152983487717082
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 15155750018601440079
+  analysis : .\WM Managing Orders.ana\WM Managing Orders.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ languages :
+  - en-GB
+ wb_style_sheet : .\Pocket Managing Orders.wws
+ url_rewriting :
+  internal_properties : CAAAAAgAAADkPzcUdUUS7wCiun+MCjqYH70RJdzkSv/nRvXZ3ENdikMa6bcHtsAH
+ rad_options :
+  internal_properties : CAAAAAgAAABmZpOurtSgh/UQzLaPAuGfZn5t1blOU8UnG8+T2X0PXrl7omvijr8UraZW3BEirq/ViyoZYHq9
+ code_elements :
+  internal_properties : CAAAAAgAAAAdax1oJyAWhm2kvA2Wdy3mwcC1vHA/GgYLxhJKiVAGhN5v9D+9mAag/4NmzjBJ3EgHJktba8zgaFFt1f5Iu5hHF29MSILl3RK+KHnF/V43zmi73PfKQ+p8XCpd8BriKCHGUZQ3yWOMHBWM3FQOqQ==
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABmLjQvrhQhVDWpktNOfsKCcbDfPli3gEXVF3Lm+wOrfg6SbwHcKnTezfdrO7/Xk/F9F5bBXELo5b5xoGpiJyhrS84L3qxCOlU6fjYbvXCOvR5h2A6KxoXaFAevgFEIVWicvbitI61zsqA2UrtlgVukemD6fjkq3uQ3aE9Fgos3fR5MSBooTEBmGmhC/f+1UDib15Pw88op3ND8MYJHCOjP0JE0EapkGpb7D8c=
+     code : |1-
+      
+     type : 196608
+   -
+     code : |1-
+      
+     type : 196610
+   -
+     code : |1-
+      
+     type : 196619
+   -
+     code : |1-
+      
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Android Managing Orders
+     identifier : 0x44be6f5b007255b2
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : iOS Managing Orders
+     identifier : 0x4f19439003152c9a
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    explorer_type : windows
+    children :
+     -
+       name : Customer
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_Customer_Form
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_List_Customers
+          explorer_type : element
+          type : 2
+     -
+       name : Order
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_NewOrder
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_History
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_List_Orders
+          explorer_type : element
+          type : 2
+     -
+       name : Product
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_Form_Product
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_List_Products
+          explorer_type : element
+          type : 2
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

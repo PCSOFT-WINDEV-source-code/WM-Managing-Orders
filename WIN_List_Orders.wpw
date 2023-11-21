@@ -1,0 +1,701 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_List_Orders
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_List_Orders
+ identifier : 0x271896c635bbf1f4
+ internal_properties : CAAAAAgAAAA212sCyaLuajVu6685uBRk8PSlAYmjZpcF1+wtxw2knDKgOJMmev30R3duWz4Opxn6zD2d6V0qDxcWqENvuHy7tJCyEkeDVtROlhzrBc06U0RupHsUupmbA0WNPF3401j70cUmLE8yvxS/0rxWXgpxh6BomBb1VNB+gTr69kWj1pShCfHxM2J05wk+eTTR+EwnGNalxpB7iGp/qlFtPz3N5z5T2I+g8kKdr2ls4ICdm56huNlg/igOBU/HfNPOc36qmID02/ZryEM8EHRr0WlXdOZXm51sbRrWqRKnaBdwwHIY0M5djIaw46i+uAHy4SyhgV+NYW0il4XrwgiCga30resj2y+HSkZtHpBxnPLvdfaXtLPIQo7JlLYtjF5g8/Nil0n9uftJZ+fFLZ47RY4R2ZiSKTpY4mbTwusaJgW2GD3x6+1oofVQgqmWK0PVF/L4YYWejPP4rYLRxtV/ACe2eJ29lJ7sGKJJ/w8B9BjqHl18gFV94pa8hWfdOgdDlq1xPvqrhY7DB43DRdzwOeYE66kXufO8RJYI66Zyzmnz3hSG1/k/1/Ki5nXI1ER60Ol+PJa8xv/3RUFRFIGXiPrxPY4wkxn39yzCCAfaF+MvlJIHgOBq+hfmvyfXTcIi2CLk4rSFqubVBi9pLnoMc7lGgAgwvsOKea2ej0i92+qhXvDNhkfeXwaVBBYUbW64mSpgMDKU4FLe/3lqip/+JEQF/O6/J9wADA9dsfTycm7zvbR6K/2dMjx7axGASXDz/svUZ/nYLRbfS/T1GIwRo0a+7xE9RWi0wfpgRsunBs86oH1/UqtNH03w97RJDsk4C0H9FgkBPvhfH2dhcu5pq7GOumucBIAnK2k24Ya0J2L9Czijh2OYxAIGFilsi/LPcj92F8sw1/XWR5sUPdCmo3pee4GWcdGWvoO2D+IXySqkMMPuaO0xMyPLL+Bbgh3ZtumMWgdi7O2bPLEtaHGzcYDQ8jIj/L19UblbQ5BkEG1izmb4GSayq2ELiZZqo77nsuWNe9luVoQvuTnqcM9xhQt2rWRkye9MACY78uD8dei8AIHOK+Yhi+1OHHT/CZi3Li2vmQPSYkmSOtXAr7L/0a5AG5MdTP8m+jBNa+62ePzg9zI10Hloabu5rUzanM30VI5sQNWKNHI7a6CtGpj7pWrumqY6qbXPsEVYW/8VnhAdZDyQPdkJ0wJRuIt3FOLiHARhPa4a7HoT9w0X/jJubND49u1x0O34bVNsf4fT/1j18HZK4V0xswFd9hy3VR7CxItz9OCBlANDQmDrWUd8ESH1W6sxAgpcqMxN6Q2zWPUr/hPlXhGYcFm8yhKXdKyNuqT4HFewhexlwv3z71fh2g8dMA==
+ properties :
+  width : 320
+  height : 247
+  heightMin : 320
+ controls :
+  -
+    name : LOOP_Order
+    identifier : 0x271896c635bef1f4
+    internal_properties : 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
+    properties :
+     x : 1
+     y : 1
+     width : 319
+     height : 242
+    controls :
+     -
+       name : STC_OrderNumber
+       identifier : 0x271896c635caf1f4
+       internal_properties : CAAAAAgAAAADtrOZoET/gJSrVDCQ3epC7Z/gmgWSDsEdHY5f6PKIu2mYelq+yB9Z5oSoWmrZ+7IGRvpkj0/cZczNKIulfIsq4Esv/YGJZ4QVnhkFfKLLrG84Ilxf5CF4OPcLYps6bEIDDTgLG6rVZzt91IRwes4TX/ybJl+p43SSm7exsgcwBiWyQzOfDi070atTo+G98nzZ1WmsxZYAnzkH6xSy2p2GQB3Ix6rYQ4Gt2dMrhJ4z8kGD0TixKcKfPL9I2Tj0PufhKpOusl18aU/9f3H7iu7Mr/b/2JpC9bcXCyQBDy6LfyRr9nbNecDCcxS+hsskyzbDTqPh2ta1APr4UGvOJD3uQqVjXLy4YsViB49sBuaStY6FMCyqFCsAzOmA0vSh3fRrePGwS89WUNuJ95SA0lbAxcG4BxGnktNsszuG4tnz789vHAXhjlrFUkva+WRa8l6b5wZUhdcKCm1w4hgH0VCUnjwVdKo2CHTKdyOkLGtKvrdj9vE=
+       properties :
+        x : -1
+        y : 2
+        width : 318
+        height : 19
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_InvoiceInfo
+       identifier : 0x271896c635c7f1f4
+       internal_properties : CAAAAAgAAADo8sPWJMZxiYmJIZwBha4j/3P/LS6SmOO83WR2yntj5MSI3OFmWT0oiF/rIvSDak70I95azDh5mJ97UQUDLY2iZ4ROVz0R+wN2TrxBv07UT7VG+Yto/1oz6bbL2ak9eMhMpxfXDXACe0c8RHhkLZ8AvdEpHRX/CxM2ubLWnFTMPPdwEkeu6X8WYYhXkl5n7KHZanhSw0fvuoULgZxRHD0jKtSVf6P1BdVKKLtBFb7tV0NXzGARemoiamExsQmxwnGencU29e28Ut/jFtXDc/hCyEurqky+ZfnneCTidFB4zVz8TmeacCo/ERAaEUbsF8OcuPnZWKuwpAr1O4BTyUgzmm+NkZ6HynVSWiwH4GftPgWYrk6O8dH5jGuZCuw4hb6k9w3jo4yfFrAJ+FuUe3DYTuDnfnc+7vQpigtqrxU8iGZgMjOhRyvXTSabKJLb23X66G8VmQB14QfwaDDFb5yMcPGnhwM69d2Je5MOq1kMIvedAc3Aagvzn0XEyE5z9qM/zSKeNMCCLYAnMq0=
+       properties :
+        x : -3
+        y : 183
+        width : 318
+        height : 20
+       type : 3
+       layout :
+        -
+          x : 2
+          y : 188
+          width : 318
+          height : 20
+        -
+          x : -1
+          y : 185
+          width : 318
+          height : 20
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_OrderDate
+       identifier : 0x271896c635cbf1f4
+       internal_properties : CAAAAAgAAAAhdXs1qRVuKQdkwLycR2PjAoxoN3iYjoncY8fWnC8CpMVwWyjqAz9LdT62L/26sSgto3K6QYYfQn+hNJ7PmvojfR6z3/HUvEzQkM+2MyFbH/zqaysenngNSGxet8Tg4ITTzbKxO/Xq+7A4JK17QVPTzUcqlptNZeJEbZyPv+EFiAYppa/ckIcQ0gOm5XrvxUQQJmqrJylep7f66+sfg5yZWMpM+T7a/xHSf0+O6s04tkYd38YxtvMlegDMpnGlTO2Sf2Erst94J04yqX7M6Y6RWlFXJxOG7pX0Qi5rV+bJdalkr+UNMsOz8AEy37p4C/s1JSS1Ja7zsu1uz2whKJnEpTept35DencDiACZ9jtwKBarniLqsVE6hyT6s8t8kzFpdpmkb4WqhY51g1rqiMr9zy2omozLL0UsG5z9BfJheBaJABxJrXsFjfKpNbkKoQBFgG8l08YOGotK2vEQrYYZksbf7VLfo/JohZz89LdKNmaHq5Jm
+       properties :
+        x : -6
+        y : 18
+        width : 318
+        height : 26
+       type : 3
+       layout :
+        -
+          x : 2
+          y : 23
+          width : 318
+          height : 26
+        -
+          x : -4
+          y : 20
+          width : 318
+          height : 26
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_Customer
+       identifier : 0x271896c635c8f1f4
+       internal_properties : CAAAAAgAAAD4XyRs6oZi885tU85TIxxq6Gi6SAtffjrf9Mh1BnM71b0ps3ECkJLmG5MSegrva0V3e0aDTzypI1+Y8G86Cv7dspNq1HvRAOCWoNGoeVefezhfci9o/jcNxBfVSBG+KQ3w8gb3Z4XgYfMvWTNXL6MziewXfelnIo5MRFHizKcvejYIAfiYyHpBJ9hn0jgDaR6EAa1tJT8dQv4yoc04i24/SPj9Rz5kuCj50WSjnJiJZS3Ianmo/yU67LAQdRCuXhiSEvUdVNCK1BY0QFD7hgZUKpoUfRDH3Xkx1bT1kFaU9k60TJjkF//iV9wfT1ULM+4sYDoN5eBahOJEVGsZSm620dOWuRneCrY4htdABC5P0J1na/256lM+CJv7sDJgjtuAdsiL9iER73Jb0PF0TKWJTcU+KWYDNYOFeoJeAgrJGbpACj/m4SIRKbkyGveAhh6JzTyzYfqXoygf6E0B/rW2BIpAmiHPY35vPyXEMXh/cFkbJj9NfloXtb2NOAFF3JQBrxLZCKvQ2sDxeQ==
+       properties :
+        x : -1
+        y : 45
+        width : 317
+        height : 135
+       type : 3
+       layout :
+        -
+          x : 4
+          y : 50
+          width : 318
+          height : 116
+        -
+          x : 1
+          y : 47
+          width : 317
+          height : 135
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : BTN_Invoice
+       identifier : 0x271896c635c9f1f4
+       internal_properties : CAAAAAgAAAA1eaNJ9FBBTJHKpywtSNC51XV7D5dpi2kfep0peF+QrvUoYSi3jo+EzxOO+G66cNO5Kp+Qs8cmIMUfOZGl5dwUtVY3wehPe+/cFq6Vpna/0l9S5vt53T4xImtfCW3uYXJfZuoh/Zbw6eQjY/t4OTU+qdU9qJKcvSNmRA6Jy3qHsEmMHvD/7RDOBdA7SBapdiCI7oiH1PDqjLmts/R+Dq+F9vcCKidHSFR6o3itSXbpg9a4cxpgbTyY0wh8V7VLbEoCc97MzYucLnCZCeM8DlbY0DENKh495d5uU7IpgWrPYUjNa9xgyILOmn0kPA19ExjOS+Tv2whUY7wTC9sUFM/P7koZtzKG9uY28AdWg546b6R4LrxOgAOagSyJ6TGb0o8adf0WC4w1HQgcY7M3lrSbhxayKRUH7K6XBy+H+ek1hg+XRkVfK9KaN9zMJB4l6OkDy51zW6/BchX1yS+ZE2uBQesRfxLJCwulMHAT41TbvDH74JyJK1iGA5ChuTsJugrdRpBcwgqvKJsnhTDpVwtqH4EjmfjCzmtKH1ODnVuoVTCpumoFi9d1iZRvMcnBl2uZq1WPij81JA/ailYo5mK2BZMAQafoqQMoHDz+lCPq44Br3Ya7/6iTEhpiY3m0cLUhOUPm5ziRk7L3EpOyvi+YBlqfgLl9f0Wo6BaXwKSjr8ozcw3RDSQy9Oqli2KlFUnLS51qmPjN+1K/xtJAbLdctp6gW8YQokCHbzL/3aDP6oLhahWCEWljwbuVBzOgfFYl4q/L1K2D2I0OVt+GHonQqHxUALDvDvXjA8iXGlbwq0wpP48ISpVKGt2i3l7QiOGOkT/guhWsZ3hGK+1pHHsN4FB0maKwmHlB+vIzze5NGAAuD3Fx6AklIdGGSI2GIjE=
+       properties :
+        x : -1
+        y : 205
+        width : 146
+        height : 40
+       type : 4
+       layout :
+        -
+          x : 4
+          y : 210
+          width : 146
+          height : 40
+        -
+          x : 1
+          y : 207
+          width : 146
+          height : 40
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Finds the order
+            HReadSeekFirst(Order, OrderNum, ATT_OrderNum)
+            IF HFound(Order) THEN
+            
+            	// Create the equivalent invoice
+            	HReset(Invoice)
+            	Invoice.InvoiceDate = Today()
+            	Invoice.CustomerNum = Order.CustomerNum
+            	Invoice.OrderNum = Order.OrderNum
+            	Invoice.TotalBT = Order.TotalBT
+            	Invoice.TotalVAT = Order.TotalVAT
+            	Invoice.TotalIOT = Order.TotalIOT
+            	HAdd(Invoice)
+            	
+            	// Create the equivalent invoice lines
+            	FOR EACH OrdLine WHERE OrderNum = Order.OrderNum
+            		HReadSeekFirst(Product, Reference, OrdLine.Reference)
+            		
+            		HReset(InvLine)
+            		InvLine.OrdLineID = OrdLine.OrdLineID
+            		InvLine.ProdDesc = Product.ProdDesc
+            		InvLine.InvoiceNum = Invoice.InvoiceNum
+            		InvLine.SalesPrice = OrdLine.SalesPrice
+            		InvLine.Quantity = OrdLine.Quantity
+            		InvLine.Reference = OrdLine.Reference
+            		HAdd(InvLine)
+            	END
+            	
+            	// Add an history
+            	AddHistory(Order.CustomerNum, cstTYPEHISTO_INVOICE, StringBuild(<§$0002§>, Invoice.InvoiceNum))
+            	
+            	// Refreshes the invoice information for the line
+            	LOOP_Order[LOOP_Order].ATT_InvoiceInfo = StringBuild(<§$0005§>, DateToString(Invoice.InvoiceDate, <§$0006§>))
+            	LOOP_Order[LOOP_Order].ATT_InvoicingPossible = False	// Invisible
+            	
+            	// Information message
+            	Info(<§$0004§>, StringBuild(<§$0003§>,Invoice.InvoiceNum))
+            	
+            END
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : STC_CaptionInvoicingAddress
+       identifier : 0x271896c635ccf1f4
+       internal_properties : CAAAAAgAAAD+oQTBzVV7U93mn6/tT1NgxXS1EL5SoGQCbspjdhJhNd3hFzrBTIBbn1yZbk5VTS9Htcs5mdfredbCe0Knyzmbk74XTAAq/ZVGHzCaaGGCwT+SJURz2OEeTGWizZnWvwzOxU5BVo1g4qEJtx9EDGNxGbv6+SIqARX4uGG2VloBGzlSVCVLzWxrLanwatVpHgSLdqHdPUNgtue28znPLU5vSmb8ayo1DTPZg+fJHm7dBwTpxLV+e5RN2k/LnJ9bTlOJPnr5Co7R6LAbyvag/tf9RVlVkmtu5RawlEHPN5c+pQBojRX1thEsYmH4XWNeyO4QNGDJMwZxYM8isY5l67TK93RDjVdXLJv/srI9YjQMbwMMdVk98IW3E96CbrWp4J2am09DVHTSxfjA7L3UAWWjCU/DKf20EC6fugNvn5PsiVRDLzHsJ9InUrUY8Y7P5BE7RjYsW/dE0xA6LH+z+Qc=
+       properties :
+        x : 2
+        y : 65
+        width : 366
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_DeliveryAddress
+       identifier : 0x271896c635cdf1f4
+       internal_properties : CAAAAAgAAAAqMw9CxiLQ4uiWQ5DIxKxF/cUtqhuS9YsB6u5P9tJmaraWLIbSA9CIf5KyAGDWnkc4SSyqtCyikri+QYU3zxvsHEJUSKRik/mPHDIOGa2UPYv+spjq5/eoqM01YRDh1el+Mqu5LC9Bj/TdFwhsjeTVm/8rJVdu/cbJWvGUzwEG6+5g8uky5NWpuoAewcxcMaBD/J8C8Cj6YDcUYrrPaMl3hVM9COnrs84UW91KmjGtihodUo4od/Opa6jHoROMYeY6jAQLXTtKOUI+ENl9VlrP6FkR3GBVpObTOLdwSi+smJBeP+OLDq0ftki8ypJ0+hVV0fmKT2wJtYb4ir8HJ/bPZR/6GQT+M+cuprFJN9CypnyZCD0rqdcmZlLOzHug7ORy0rnuTVLMsa0kgIBtZEco/XNRqQdQARa7agCwf06WNCmNqm5yVRp0WnuiuiKCKIRohdNLGddiURs6+6/crhAk8Yve+xSzid9/DprRAgvzX2OSWTHKt1oUUer/vwYPBQyfSxiqki0SlKqwFEiZ/g==
+       properties :
+        x : 180
+        y : 90
+        width : 143
+        height : 116
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_CaptionDeliveryAddress
+       identifier : 0x271896c635cef1f4
+       internal_properties : CAAAAAgAAACrA7OkmA5RIIZhw4JV+1lXpJZWB6U9SQ9fYSrIKlOTX0aoLvkCtEYoIqOd03mSNadits4/9lY95BU5ylSpg/jy1mEutSlbeknE4XULGffjBtaYDugR1NLitJYrr9Fsu9tNPwjPA6ZN1JFlZtG7nr3rDs2sOZ/X4MaSA9wfkMYnlFf/GPkIJbHyiHhpHCk8NzmtowYMzYGoeNcUwN97NzSglUCoj8nc7NxQCyntCA+dLrHCz3ykWUNuOjse6ksE8iB6ghdmGbdmBQ4D5OniGUCuRPqKATzK7G/PS1Z1+O7vFryB6D6LONm6GrPdaO6/vK/rYHNzccLEUOA4dqg57O2rykHktGyyJh3BDrt/NF5EsAar6rd0uHTEYhFgeMAuLnFdL/FuTSY8ZzgoQbuM9XA2EsoucE52lUKV9x7w8oXKdpaqTREC1mkUw/8H68idOShynp0o05cQ
+       properties :
+        x : 167
+        y : 65
+        width : 366
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : BTN_Print
+       identifier : 0x271896c635cff1f4
+       internal_properties : CAAAAAgAAACc/tlJblwpWDBKybRempAGXLnkAyqcUh8Tel/w18/dCqs0+Sjp4y7GkvDidxssk/c3Qy8aL+PMP+LaM4GCRoJi2Pw/ekfkWKYDQhZhlEp+Nx4sXeBMK+vcRxqkWG864uOJWQt1b50oKiW+8gLbFTqKOOF+r64vPtS3OBdKfpBnIrMBpp2v4t9iQwXt6oomzvZGA8vAnz0jojmYOw5yMt4Kp/uWfgiVJMNqH7nPqygZUHwI+hVLoev5lgGWxuOT6bRVK7LvxXODFVg+pNSzeAVDBf/AnDNO5wsiiEr9ejo2O12xyqsArpzvSrNV7gKA/1fSqY5Ko832M7C9VHUJb2hWMVGw9MXWF+McJ3Rnk8sYMvNWuAGe6OJHU5hyDZAoLbLrazYcqXu6vnXs+3nfVxG7YKjv1QmYr6FLzcz9uezABAU7ZS6/iNRgzmJOdEMDCV9alGi9lPeUlDfg9KcGNyGIpCYYrQOMZ0qSBmQMn2hNjVYAo9Ghgljqce4sD3snJLVfZtEay5Wa5zef0ySJb1ipENGeXzZOTwflRQ2jnkBFHB21TMeKNIfGTzGXLTxbOHo5GooRQeJBDWO5WRjJfNSvAx62WGq64kTF0A4hFNFShqZXnp3HID70f8QJmtXtuN0x1oQ2G7TE+x+r8ftgWWvHdNFO+hp0aBsxvjHb4eaIlll2NO0B6NRId3qYxZUff6ozRtQmWUifWyWnqVgLRDFuWkgUgXSHaCwOU6pPzjK95PcTO4lDyLIgpDyiBzwj3xzmAZk4z/LCho1oBG1Y3KK5Y95tVIfe3sbVzkBo4qB621aZawHamtwiJ5tGjzbLY7Dc0Wl7b/JKflImueywz6IPNXcJqtXsKqK2/qqqHSlk5TyE7OD3OLSrq00wtTksTNnuk58=
+       properties :
+        x : 149
+        y : 205
+        width : 114
+        height : 40
+       type : 4
+       layout :
+        -
+          x : 154
+          y : 210
+          width : 114
+          height : 40
+        -
+          x : 151
+          y : 207
+          width : 114
+          height : 40
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            <COMPILE IF ConfigurationType=Android>
+            	myself..Visible = false
+            <END>
+           type : 14
+         -
+           code : |1-
+            // Prints the order form
+            PrintOrderForm(ATT_OrderNum)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Delete
+       identifier : 0x271896c635d1f1f4
+       internal_properties : CAAAAAgAAABt+tjC/SqeBwIPPQ07lXB33F/Z+tp4cdAXiXGNiHdSdX0yVW6/eYzG7btWqaA3EZf9p6haTCXCPcy68g3yg1lzqy1PNnXU1Ar7RczfO0uL+F4V7St4+BoxtjYh838/nUWjR8Smn9UFVCBYwa95X9ItUNzA43NeRX9pcvSEwIg/3sYIyNXM/6mEMo/4SNCtZG3QvQObfZNF4gyl79e+rg6vSXuSsprm9HZFaYkbSkwP+hnlpTL9BCLZggZ+/riXbFpjxFQjsd/OdG+vBhdCl/rOpGFIykY5jwoqhjpKUs3PfaOD2t+DeZsovGUpWh421tFZXoib/z30DyjhFn+uuLZvZF6IB2PT2qYP+O2MJv5C8ox0hZqxWkndX2QkJhe8hwZ7Bt67I5EmpqHVC8JMi9MhZ7C36Aj9Ib3zLWFxQka2rCY44KiVSRrrgcMTow6jVjCvcb0jczRoINm1LhHxKaLdQEpiO9Rufbmph8hbn6pealQyMoX2r5B6XYy9jgWDJUwJn2Pr++OpXy0kEgYfM/faI2f5b0vl9vWXWIYFFrMfaqIKRyU76PFXT547znTwKP95oQVc+830cRhcGWp9CVG6VwaUrcJr5R9QUFpao3LB97KRY239UZHkiXFB+TzPGssp4DYnpz4o+W228IwVkpkJ020bd0sUdS898DSPHjYNpiTWEBv52S2rGwL4IwS2ABoeck2O9pB/TTGEuhUMgpwNYNoJc8LAI0d4fpJLfjEM7RlDFyIp4Y+jghGaJFEC+wvCp3BiW/sWhl40eGaojzVRgATvKcmHumcjL9GiBxso43I0tX3V4e9G3OF/xaAkavC/fryryxUFqCWvxrZf/TxAterzBuNp8I9qr/XWRX/bAhhRIpAgW6z4I56Uyz8L+g5TqQoMRJ3CQCZz7EQUGGhRbByqyIMt+qMWF1tugcaoo5rxO3GP/c0RmddMGjrY40ILxg8etc4ExQ==
+       properties :
+        x : 262
+        y : 203
+        width : 49
+        height : 40
+       type : 4
+       layout :
+        -
+          x : 270
+          y : 208
+          width : 49
+          height : 40
+        -
+          x : 264
+          y : 205
+          width : 49
+          height : 40
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            // Confirm the deletion
+            IF YesNo(No, "Delete this order?") = No THEN RETURN
+            
+            // Finds the order
+            HReadSeekFirst(Order, OrderNum, ATT_OrderNum)
+            IF HFound(Order) THEN
+            	
+            	// Deletes the order
+            	IF HDelete(Order) THEN
+            		
+            		// Update the list
+            		LooperDelete(LOOP_Order)
+            		
+            	END
+            	
+            END
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : STC_Amount
+       identifier : 0x271896c635d0f1f4
+       internal_properties : CAAAAAgAAADmeysYs4r7kCKGcdcnIjVLKJDjdGiw0r1rmXpsqQe1r4v2ISlmKqQTHFd1NXqpJeuOWrvqZEhyxo6W6O22jY16leLCUVxdiFcPBInpkUTwBqn2GybpFIlUOeFOH3Aydxyjs732Bs5TT29prTQ78lXX4oJC3UrI+1a8XkPTU38vy5D++pt42ThshkXaTABrz3NUiU6oDqVo0+yX9jKDDocb2Z7dJfE4g+Cfo0K2lfDs5UwYKAv3ObmNArXYa1v5mV3F1GzNuL+HlLONI26EZX8We/IA26QTRpTaElWah79MYaBu8jIm6SZoinOG+Ouiz+FKVTE3d0QosYPMiSg+Z7cW9nfujq5YFDq6Z6XsnRW47A2cldFk0t/1Hijc6sKezCINnY8tocvU+j7IsvNGPmIKmm0jwv58XZGrBkTU1y3Vh2BcRehGptj4qu/nBzh0pAQhvuuc
+       properties :
+        x : 2
+        y : 31
+        width : 316
+        height : 19
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    columns :
+     -
+       name : ATT_OrderNum
+       identifier : 0x271896c635bff1f4
+       internal_properties : CAAAAAgAAABOXOJYSCZ8JvEMOG0ItpmXNfMTNBobIUsoOUnH3v0QilQTdHQimbTNyr2bnlI3KHgoxsEBh7x5hn14axjmnLrYkuGiU0KdI/euOLhqbF5QEfBUmx1vIDjcmkiCqozf7MfgoDcN9VHCINo=
+       type : 3
+       content :
+        identifier : 0x2557a3a80a0d965f
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_OrderNumInClear
+       identifier : 0x271896c635c0f1f4
+       internal_properties : CAAAAAgAAADxweyd0jMCLkzGsjpVemaqgihcsWg/C/OMIMC9Lk32c6pJIsUc8z23ernXsD63cY7T0DRNX6uiZfMa4E/KMz74kIJmAxfrJ8gEepI646kA9CTxFmWqHddy8DEHLBXR6NEhX05B5WOikk986M5xdys9GEjGfvtLFUB3OCmf2z05CnnFH8DI5U6ZMeVv
+       type : 3
+       content :
+        identifier : 0x2557a3a80a0f965f
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_OrderDate
+       identifier : 0x271896c635c1f1f4
+       internal_properties : CAAAAAgAAAC56aRFGvED9zs/M02MeD4JKCIEi4wNxRKynQRf8HwMN8Sfq5ZGOiT19GkpCvYp06RiYSXeMPzfL2nySj26TVAcavp6qTms9pc/SZP7rO5dN4FMgz7DkFT522Aiy/TklxL8sM1EkV5VJlz9mX1Oo5VZEKOL3BmBUXTVDtf/9MfroifLeXzMnQbReb23
+       type : 3
+       content :
+        identifier : 0x2557a3a80a11965f
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_CustomerInfo
+       identifier : 0x271896c635c2f1f4
+       internal_properties : CAAAAAgAAABfZuOl9XrQJrHhfM8Eu40HqgiVk3jTTlB2KaTOBxs6Vqqkefn0foOcClEAOG/rmQ/umpGDnqkkJDDJvdJi5T8IGW+d1WeBA1abJzPWV04UQZg8r7F/JYU8vSQoWnsk7nS9wmstku167vSr9y5RkINQyO+tqCy97VB8mzSPy0Bj+/NUDY7YDhYX
+       type : 3
+       content :
+        identifier : 0x2557a3a80a13965f
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_DeliveryAddress
+       identifier : 0x271896c635c3f1f4
+       internal_properties : CAAAAAgAAAD0Kvl+1yhOYARsFWw03e2TD9U1iqwNA4n9+NX3chK5CGdvy1o7cGPeg0dCECV3k6lg4JtOJILdXW0Euabb0x506WIoLSMj8x6uffAkP+yssAi0zEYUTw2OdU7LHQuxWLD83CjCsol4NzUe33JMfz99O5iOi5WKMcyDkGt+q75HKGQM1oMLWsmSNvp0
+       type : 3
+       content :
+        identifier : 0x2557a3a80a15965f
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_TotalIOT
+       identifier : 0x271896c635c4f1f4
+       internal_properties : CAAAAAgAAABW0dI8dYHwLms6nn8jfTfTEZxjH7JH5RGOjpAF9KtMIeWy+/KcGsfBEuZom/ONlx+Muqf2Xwncsj0kuST7PK4a3JqORFffVMXduOVQD1lbJC5rCYQprcT1Q/eOKLfHD3vNh5WwtR3Jkjz2MQ8GvWS9Rp9as1BLluO84gyLdZ1Q2ewA/h/3qi0=
+       type : 3
+       content :
+        identifier : 0x2557a3a80a17965f
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_InvoiceInfo
+       identifier : 0x271896c635c5f1f4
+       internal_properties : CAAAAAgAAABKno3MFLfnbaruY4FarwbUWpGN9bISJLizHGwqMXq7TxM/nCZdps5gRGQcB0aTJ4i0nuEZMvyxB36RbUpPx/GwMpH66/wFpKxBGz30z1n8tXcZruaEtQODPecq3Fe4SewUXNt7FrM5lVMG81Zaag9EzZVqnN/YIUaqHtzIwdtiQBcvWjzYEDCIYg==
+       type : 3
+       content :
+        identifier : 0x2557a3a80a19965f
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_InvoicingPossible
+       identifier : 0x271896c635c6f1f4
+       internal_properties : CAAAAAgAAADhgewEwqvFqep19bHf24FG1uGa8IrAmOXLxL87SGg7S/4gD2sdSls1USV65nKz+7GTRZ8AaZxgerOZjfEYSon3nVjK/9I4znvDpd2p+pMv0OHVjvwubPUc+wvqI0S4qPPs9Hff9na9RGEud6UX+kIbs5sMVKL4fP79qTO8UzQEcs40jkAVXdo=
+       type : 3
+       content :
+        identifier : 0x2557a3a80a1b965f
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 21
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+     orphans :
+      -
+        name : ATT_NumeroCommande
+        identifier : 0x2f197cda04fff71d
+        code_elements :
+         type_code : 46
+         p_codes : []
+      -
+        name : ATT_LibelleClient
+        identifier : 0x2f197cda0503f71d
+        code_elements :
+         type_code : 46
+         p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x271896c635d4f1f4
+  internal_properties : CAAAAAgAAABO3ULp+adQimvpWj5cS/RYq0Q/u7PBjTqIKiBTD9Bia8eF93ZAaCNdtgp/kioLu3cxga//zSzvtL5zjRpytlhdHnxp5K3oW3kIlmfMKz2tuGbpSvCx7PCUDQ4sWvx15fwQhRTjtiqEDuvs+mEB5P6xiucV3CtveuQ+Gk2EMThVFpxBkkOsMd59uvXRSB6qXsKVPAxFpDfGM6FptcU0nORxwgzelgkg/wNncSOYpwAYwymQTQPKjiofRNOKWy8jQxN46FGLckP2N0kMzfpWSpTWHEyWsPfF/eA9f5hQQTux
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x271896c635d2f1f4
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_Option
+     identifier : 0x271896c635d3f1f4
+     internal_properties : CAAAAAgAAAAMyUEUXZyBQMJWJ7LIT9ZTyXZYYX66ktRRnrtAxi1cP3Viv/sy7TYEoueMNjkWbe+ZNGhL9jD75i4GFQQs3qHybGNaZMMJshmO6TIjTZF/vHR3SlgS+D2SwA0D5mxXKkZYWBhiEpVovuZeKa5T45IMdCBVJkzh+zUPSPlybFEmpRZLfLr4DaOXjGGNpohMjsgolNXKikSW9kOEwoLxcMRX/1MhfZOB7fnDfS9RBN/JkvS/+x/SeXSepPabgkF+ggkmQpynoVMhrZKIRvDdBzv/tTfFm58=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          // Create a new record
+          HReset(Order)
+          
+          // Open the form of Orders file in creation mode
+          OpenMobileWindow(WIN_NewOrder)
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ layout :
+  -
+    widthClient : 320
+    heightClient : 256
+  -
+    widthClient : 320
+    heightClient : 247
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADdF8tq6uPhciUCBn4A5pQ+a/HLBKMl7iZGyNT7iqoJRu0G7cwFIVkzigTsPKV2zOE7Nrq7I6aufc4bBnerVmYB5ijBhvJ/YAbci7I0EHRP9DXiTBAF/SO2jfCBGg==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE WIN_List_Orders()
+   -
+     code : |1+
+      // Lists the orders
+      OrderList()
+     type : 34
+   -
+     code : |1-
+      
+     type : 165
+   -
+     code : |1-
+      // Refreshes the list of orders if necessary
+      IF MyChildWindow..ReturnedValue = True THEN
+      	OrderList()
+      END
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : OrderList
+     internal_properties : CAAAAAgAAABq22PPqx5ujd7uLzhXzbPuaLVaJZr34WhFv5rkaDXAjyZf1cmfG6locVLb2SDk5gHUz+Gg2txLXsmxDvDlxIN208FJ3r6kSWgxOjDL+fSZLj2ScchbFql6iOJHYBlseUBt4kADuB0m7cKMTlWx
+     procedure_id : 1664245839490511348
+     type_code : 14
+     code : |1-
+      // Summary: Lists the orders
+      // Syntax:
+      //OrderList ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE OrderList()
+      
+      nSubscript is int
+      
+      
+      // Clears the looper
+      LooperDeleteAll(LOOP_Order)
+      
+      // Browses the orders
+      FOR EACH Order on OrderDate FromEnd
+      	 
+      	 // Adds a row
+      	 nSubscript = LooperAddLine(LOOP_Order, Order.OrderNum)
+      	 
+      	// Information about the user
+      	HReadSeekFirst(Customer, CustomerNum, Order.CustomerNum)
+      	IF HFound(Customer) THEN
+      		
+      		LOOP_Order[nSubscript].ATT_CustomerInfo = Customer.ContactLastName +[" "]+ Customer.ContactFirstName	+CR+ Customer.Company
+      		
+      		// Invoicing address
+      		HReadSeekFirst(Address, KEY_CustomerNumType, [Customer.CustomerNum, "Invoicing"])
+      		IF HFound(Address) THEN
+      			LOOP_Order[nSubscript].ATT_CustomerInfo += [CR] + Address.Address +[CR]+ Address.Address2 +[CR]+ Address.ZipCode +" "+ Address.City +[CR]+ Address.Country
+      		END
+      		
+      		// Delivery address
+      		HReadSeekFirst(Address, KEY_CustomerNumType, [Customer.CustomerNum, "Delivery"])
+      		IF HFound(Address) THEN
+      			LOOP_Order[nSubscript].ATT_DeliveryAddress += [CR] + Address.Address +[CR]+ Address.Address2 +[CR]+ Address.ZipCode +" "+ Address.City +[CR]+ Address.Country
+      		END
+      		
+      	END
+      	
+      	// Information about the order
+      	LOOP_Order[nSubscript].ATT_OrderDate = Order.OrderDate
+      	LOOP_Order[nSubscript].ATT_OrderNumInClear = StringBuild(<§$0007§>, Order.OrderNum)
+      	LOOP_Order[nSubscript].ATT_TotalIOT = StringBuild(<§$0008§>,  Order.TotalIOT)
+      	
+      	// Information about the invoice
+      	HReadSeekFirst(Invoice, OrderNum, Order.OrderNum)
+      	IF HFound(Invoice) THEN
+      		
+      		// Order already invoiced
+      		LOOP_Order[nSubscript].ATT_InvoiceInfo = StringBuild(<§$0009§>, DateToString(Invoice.InvoiceDate, maskSystemDate))
+      		LOOP_Order[nSubscript].ATT_InvoicingPossible = False
+      		
+      	ELSE // No, no invoice
+      		
+      		// It is possible to invoice
+      		LOOP_Order[nSubscript].ATT_InvoiceInfo = <§$000b§>
+      		LOOP_Order[nSubscript].ATT_InvoicingPossible = True
+      		
+      	END
+      	
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAlfrWZIGsslkP+Lb2l6f4EFr0QvhmIyqTpGhbar7TIrMnZgAi4HmFwnTo2CW4Cfv4o3LN063Eq0gCJEnkIiDI=
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f1d1b510015974f
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+  strings :
+   -
+     text :
+      en-GB : Display the generated order form (PDF format)?
+     index : 0
+   -
+     text :
+      en-GB : ORF_%1.PDF
+     index : 1
+   -
+     text :
+      en-GB : "Invoicing #%1"
+     index : 2
+   -
+     text :
+      en-GB : "Invoice number: %1."
+     index : 3
+   -
+     text :
+      en-GB : The order was invoiced.
+     index : 4
+   -
+     text :
+      en-GB : Invoiced on %1
+     index : 5
+   -
+     text :
+      en-GB : MM/DD/YYYY
+     index : 6
+   -
+     text :
+      en-GB : "Order #%1"
+     index : 7
+   -
+     text :
+      en-GB : "Total IOT: $%1"
+     index : 8
+   -
+     text :
+      en-GB : Invoiced on %1
+     index : 9
+   -
+     text :
+      en-GB : MM/DD/YYYY
+     index : 10
+   -
+     text :
+      en-GB : Order not invoiced
+     index : 11
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
